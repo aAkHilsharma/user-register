@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registeration</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <style>
+      .container {
+        margin-top: 50px;
+      }
+
+      h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center">User Registration</h1>
+      <h3 class="text-center">Register a user by adding a name and address</h3>
+      <div class="form-group">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="text"
+          id="address"
+          name="address"
+          class="form-control"
+          placeholder="Enter your address"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <button id="button" class="btn btn-danger btn-block">Register</button>
+      </div>
+      <div id="data"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
